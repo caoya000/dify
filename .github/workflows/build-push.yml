@@ -20,7 +20,7 @@ env:
 
 jobs:
   build:
-    runs-on: ${{ matrix.platform == 'ubuntu-latest' }}
+    runs-on: ubuntu-latest
     if: github.repository == 'caoya000/dify'
     strategy:
       matrix:
